@@ -8,8 +8,8 @@ import Anna from "../../public/ania_golebiowska.jpg";
 import onas from "../../public/o_nas.jpg";
 
 export const metadata: Metadata = {
-    title: 'Damian Błakowski - Barber Room Przemyśl',
-    description: 'Oferujemy najwyższej jakości profesjonalne usługi barberskie w Przemyślu – strzyenie męski, trymowanie brody, barber full combo, konturowanie, covering up gray, golenie i konturowanie brzytwą.',
+    title: 'O nas | Studio Błażkowska - Salon Fryzjerski Przemyśl',
+    description: 'Poznaj nasz zespół stylistów. Zarezerwuj wizytę i ciesz się profesjonalnymi usługami naszego studio fryzur. Serdecznie zapraszamy.',
 }
 
 const About = () => {
