@@ -23,7 +23,7 @@ const Salons = () => {
             <div className="relative z-20 pt-4 pb-16 text-center bg-white lg:py-0 2xl:mx-auto lg:mb-44 lg:flex max-w-7xl lg:justify-evenly">
                 <div className="relative z-10 px-12 py-4 mt-12 text-center bg-white lg:py-0 lg:mx-0 lg:mt-0">
                     <svg className="mx-auto" width="90px" height="135px" viewBox="0 0 90 135" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <g id="⚙️-Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="⚙️-Symbols" stroke="none" strokeWidth="1" fill="none" fill-rule="evenodd">
                             <g id="Group" fill="#0E7490" fill-rule="nonzero">
                                 <path d="M45,0 C21.375,0 0,19.125 0,42.75 C0,66.375 19.5187,94.5563 45,135 C70.4813,94.5563 90,66.375 90,42.75 C90,19.125 68.625,0 45,0 Z M45,78.75 C26.3813,78.75 11.25,63.6188 11.25,45 C11.25,26.3813 26.3813,11.25 45,11.25 C63.6188,11.25 78.75,26.3813 78.75,45 C78.75,63.6188 63.6188,78.75 45,78.75 Z" id="Shape"></path>
                             </g>
@@ -33,7 +33,7 @@ const Salons = () => {
                 </div>
                 <div className="relative z-10 px-12 py-4 mt-12 text-center bg-white lg:py-0 lg:mx-0 lg:mt-0">
                     <svg className="mx-auto" width="90px" height="135px" viewBox="0 0 90 135" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                        <g id="⚙️-Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="⚙️-Symbols" stroke="none" strokeWidth="1" fill="none" fill-rule="evenodd">
                             <g id="Group" fill="#0E7490" fill-rule="nonzero">
                                 <path d="M45,0 C21.375,0 0,19.125 0,42.75 C0,66.375 19.5187,94.5563 45,135 C70.4813,94.5563 90,66.375 90,42.75 C90,19.125 68.625,0 45,0 Z M45,78.75 C26.3813,78.75 11.25,63.6188 11.25,45 C11.25,26.3813 26.3813,11.25 45,11.25 C63.6188,11.25 78.75,26.3813 78.75,45 C78.75,63.6188 63.6188,78.75 45,78.75 Z" id="Shape"></path>
                             </g>

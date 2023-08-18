@@ -34,7 +34,7 @@ const Offer = () => {
                             <g
                                 id="⚙️-Symbols"
                                 stroke="none"
-                                stroke-width="1"
+                                strokeWidth="1"
                                 fill="none"
                                 fill-rule="evenodd"
                             >
@@ -75,7 +75,7 @@ const Offer = () => {
                             <g
                                 id="⚙️-Symbols"
                                 stroke="none"
-                                stroke-width="1"
+                                strokeWidth="1"
                                 fill="none"
                                 fill-rule="evenodd"
                             >
@@ -125,7 +125,7 @@ const Offer = () => {
                             <g
                                 id="⚙️-Symbols"
                                 stroke="none"
-                                stroke-width="1"
+                                strokeWidth="1"
                                 fill="none"
                                 fill-rule="evenodd"
                             >
@@ -178,7 +178,7 @@ const Offer = () => {
                             <g
                                 id="⚙️-Symbols"
                                 stroke="none"
-                                stroke-width="1"
+                                strokeWidth="1"
                                 fill="none"
                                 fill-rule="evenodd"
                             >
