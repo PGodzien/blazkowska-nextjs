@@ -21,8 +21,9 @@ const Offer = () => {
                 </div>
             </div>
 
-            <div className="pb-40 mx-8 space-y-32 text-center lg:space-y-0 lg:space-x-8 lg:flex xl:mx-auto max-w-7xl">
 
+
+            
             <div className="relative z-20 pt-4 pb-16 text-center bg-white lg:py-0 2xl:mx-auto lg:mb-44 lg:flex max-w-7xl lg:justify-evenly">
                 <div className="relative z-10 px-12 py-4 mt-12 text-center bg-white lg:py-0 lg:mx-0 lg:mt-0">
                     <svg className="mx-auto" width="90px" height="135px" viewBox="0 0 90 135" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -46,9 +47,6 @@ const Offer = () => {
                 </div>
                 <div className="absolute inset-0 hidden w-5/12 h-full mx-8 border-2 lg:block lg:h-1/2 lg:mt-52 md:w-5/12 md:ml-16 lg:ml-0 lg:w-full border-blueGreen"></div>
             </div>
-
-    </div>
-
         </>
     );
 };
