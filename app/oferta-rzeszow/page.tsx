@@ -56,7 +56,7 @@ const Offer = () => {
                         className="p-16 space-y-4 leading-6 text-center border-4 border-blueGreen"
                     >
                         <h3 className="text-3xl">strzyżenie damskie</h3>
-                        <p className="text-2xl font-extrabold text-gold">120-170</p>
+                        <p className="text-2xl font-extrabold text-gold">120-250</p>
                         <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
                         <h3 className="text-3xl">modelowanie</h3>
                         <p className="text-2xl font-extrabold text-gold">60-100</p>
