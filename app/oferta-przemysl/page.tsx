@@ -21,6 +21,103 @@ const Offer = () => {
                 </div>
             </div>
 
+            <div
+                className="container justify-center mx-auto my-20 space-y-20 lg:space-y-0 lg:space-x-24 lg:flex text-primary"
+            >
+                <div
+                    className="relative flex flex-col justify-start w-3/4 mx-auto lg:mx-0 lg:w-1/3"
+                >
+                    <div className="z-10 px-6 mx-auto -mb-1 bg-white lg:px-12">
+                        <svg
+                            width="158px"
+                            height="113px"
+                            viewBox="0 0 158 113"
+                            version="1.1"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <g
+                                id="⚙️-Symbols"
+                                stroke="none"
+                                strokeWidth="1"
+                                fill="none"
+                                fill-rule="evenodd"
+                            >
+                                <g id="Group" fill="#0E7490" fill-rule="nonzero">
+                                    <path
+                                        d="M66.7903,47.5249 C66.4669,47.5249 66.1661,47.605 65.8803,47.7727 C41.8671,62.6838 41.8671,62.6838 41.8671,62.6838 L0,62.6838 L0,65.9561 L40.9421,65.9561 C40.9571,65.9561 40.9571,65.9707 40.9797,65.9853 C65.8879,81.4358 65.8879,81.4358 65.8879,81.4358 C66.1736,81.618 66.4745,81.6982 66.7978,81.6982 C79.2895,81.6982 79.2895,81.6982 79.2895,81.6982 L79.2895,78.4259 L68.4825,78.4259 L68.4825,75.518 L79.282,75.518 L79.282,72.2457 L68.4825,72.2457 L68.4825,69.3378 L79.282,69.3378 L79.282,66.0655 L68.4825,66.0655 L68.4825,63.1576 L79.282,63.1576 L79.282,59.8853 L68.4825,59.8853 L68.4825,56.9774 L79.282,56.9774 L79.282,53.7051 L68.4825,53.7051 L68.4825,50.7753 L79.282,50.7753 L79.282,47.503 L66.7903,47.503 L66.7903,47.5249 Z M65.1057,77.0703 L45.0257,64.6079 L65.1057,52.1309 L65.1057,77.0703 Z M71.5358,92.6884 L69.054,92.6884 L69.054,88.3521 C69.054,87.4557 68.2944,86.7196 67.3694,86.7196 C37.6857,86.7196 37.6857,86.7196 37.6857,86.7196 C36.7381,86.7196 36.001,87.4557 36.001,88.3521 C36.001,92.6884 36.001,92.6884 36.001,92.6884 L33.5193,92.6884 C32.5717,92.6884 31.8346,93.4245 31.8346,94.3209 C31.8346,111.36 31.8346,111.36 31.8346,111.36 C31.8346,112.257 32.5792,112.993 33.5193,112.993 C71.5358,112.993 71.5358,112.993 71.5358,112.993 C72.4609,112.993 73.2204,112.257 73.2204,111.36 C73.2204,94.3209 73.2204,94.3209 73.2204,94.3209 C73.2204,93.4245 72.4609,92.6884 71.5358,92.6884 Z M39.3703,89.9919 L65.6773,89.9919 L65.6773,92.6884 L39.3703,92.6884 L39.3703,89.9919 Z M69.8437,109.728 L35.2039,109.728 L35.2039,95.9607 L69.8512,95.9607 L69.8512,109.728 L69.8437,109.728 Z M146.967,81.6982 C144.486,68.0769 143.493,53.3552 144.049,37.8902 C144.455,26.8708 141.026,17.3672 134.13,10.451 C127.557,3.8772 118.412,0.182199 108.274,0 C107.394,0 107.394,0 107.394,0 C97.2562,0.182199 88.1037,3.8772 81.5382,10.451 C74.6343,17.3672 71.2124,26.8708 71.6185,37.8902 C74.9953,37.7736 74.9953,37.7736 74.9953,37.7736 C74.6268,27.6506 77.7328,18.9852 83.9749,12.7175 C89.9838,6.68307 98.452,3.3306 107.838,3.26501 C117.223,3.3306 125.692,6.68307 131.701,12.7175 C137.943,18.9779 141.049,27.6506 140.68,37.7736 C140.139,52.918 141.049,67.37 143.38,80.8163 C122.909,75.7001 122.909,75.7002 122.909,75.7002 L122.909,68.179 C129.339,62.2466 133.829,52.3641 134.904,40.441 C134.957,39.836 134.686,39.2603 134.16,38.9396 C133.656,38.5971 133.009,38.5607 132.453,38.8376 C131.693,39.2166 114.012,47.6998 104.747,32.3294 C111.094,26.8853 110.319,22.3522 110.199,21.7983 C106.905,22.498 106.905,22.498 106.905,22.498 C106.905,22.5271 107.447,26.6011 100.287,31.5715 C92.3528,37.0812 82.2827,38.6554 82.1774,38.67 C81.7187,38.7356 81.3201,38.9834 81.0494,39.355 C80.7786,39.734 80.6959,40.1859 80.7937,40.6304 C84.0651,55.0679 89.1942,63.347 94.3307,68.0551 C94.3307,76.9683 94.3307,76.9683 94.3307,76.9683 L97.7075,76.9683 L97.7075,70.6933 C102.16,73.5866 106.266,74.1405 108.725,74.1405 C109.079,74.1405 109.417,74.126 109.688,74.1114 C113.215,73.9 116.524,72.7048 119.525,70.7589 C119.525,76.9755 119.525,76.9755 119.525,76.9755 C119.525,77.7116 120.051,78.3675 120.811,78.5425 C145.952,84.8247 145.952,84.8247 145.952,84.8247 C151.066,85.9398 154.623,90.2542 154.623,95.3267 C154.623,104.991 154.623,104.991 154.623,104.991 L158,104.991 L158,95.3267 C158,88.7821 153.443,83.2213 146.967,81.6982 Z M109.485,70.8609 C98.4294,71.546 89.1641,60.6432 84.4787,41.5706 C87.8705,40.8709 95.4964,38.874 102.062,34.3774 C110.62,48.0642 125.165,44.9231 131.219,42.846 C129.196,56.6348 121.42,70.103 109.485,70.8609 Z"
+                                        id="Shape"
+                                    ></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div className="p-4 space-y-4 leading-6 text-center lg:p-16">
+                        <h3 className="text-xl lg:text-3xl">relaxacyjny masaż głowy + ampułka nawilżająca</h3>
+                        <p className="text-2xl font-extrabold text-gold">150-200</p>
+                        <p className="max-w-xs mx-auto">* Cena zawiera 30-minutowy masaż głowy + ampułkę nawilżającą oraz stylizację włosów.</p>
+                        <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
+                        <h3 className="text-xl lg:text-3xl">rekonstrukcja Joico K-pak + sauna</h3>
+                        <p className="text-2xl font-extrabold text-gold">200-250</p>
+                        <p className="max-w-xs mx-auto">* Cena zawiera profesjonalną pielęgnację + saunę oraz stylizację włosów.</p>
+                        <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
+                        <h3 className="text-xl lg:text-3xl">rekonstrukcja Joico K-pak + sauna oraz masaż</h3>
+                        <p className="text-2xl font-extrabold text-gold">300-350</p>
+                        <p className="max-w-xs mx-auto">* Cena zawiera profesjonalną pielęgnację, 30-minutowy masaż głowy + saunę oraz stylizację włosów.</p>
+                    </div>
+                    <div
+                        className="absolute inset-0 z-0 border-4 top-24 -bottom-10 border-blueGreen"
+                    ></div>
+                </div>
+                <div
+                    className="relative flex flex-col justify-center w-3/4 mx-auto mt-12 lg:mx-0 lg:w-1/3 lg:mt-0"
+                >
+                    <div className="z-10 px-6 mx-auto -mb-1 bg-white lg:px-12">
+                        <svg
+                            width="123px"
+                            height="113px"
+                            viewBox="0 0 123 113"
+                            version="1.1"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <g
+                                id="⚙️-Symbols"
+                                stroke="none"
+                                strokeWidth="1"
+                                fill="none"
+                                fill-rule="evenodd"
+                            >
+                                <g id="Group" fill="#0E7490" fill-rule="nonzero">
+                                    <path
+                                        d="M121.459,57.4287 L120.678,56.4075 C116.468,50.8208 114.877,48.7489 116.625,42.622 C112.966,41.6008 112.965,41.6008 112.965,41.6008 C110.727,49.5258 113.196,52.7669 117.666,58.6718 C118.424,59.6929 118.424,59.6929 118.424,59.6929 C119.198,60.7141 119.198,61.1433 119.22,61.1433 C118.952,61.5577 117.249,62.0682 116.431,62.3124 C114.631,62.8378 112.943,63.3336 112.185,64.7839 C111.917,65.2945 111.694,66.101 112.051,67.1222 C112.542,68.5725 112.393,69.6529 112.185,70.156 C111.084,69.9711 109.738,69.7787 109.738,69.7787 C109.173,73.4933 109.173,73.4933 109.173,73.4933 C109.173,73.4933 110.117,73.6413 111.069,73.7967 C111.143,74.1149 111.218,74.4182 111.24,74.6624 C109.82,75.247 107.812,76.3052 107.566,79.45 C107.529,79.9014 107.544,80.56 107.589,81.3517 C107.648,83.2016 107.775,86.6351 106.51,87.7672 C106.361,87.9152 105.863,88.374 104.391,88.1668 C99.0063,87.412 94.0756,85.2217 90.0225,81.7957 C90.0225,39.0553 90.0225,39.0553 90.0225,39.0553 L116.773,39.0553 C117.762,39.0553 118.573,38.3006 118.647,37.3238 C118.707,36.68 119.748,21.422 109.589,10.5223 C103.082,3.54443 93.5699,0 81.284,0 C58.7872,0 41.8384,15.1249 41.8384,35.1779 C41.8384,64.9023 41.8384,64.9023 41.8384,64.9023 L1.50024996,95.3592 C-0.165632035,96.6246 -0.492859035,98.9999 0.763988965,100.657 C4.65351996,105.734 4.65351996,105.734 4.65351996,105.734 C5.26334996,106.525 6.14834996,107.051 7.15977996,107.184 C7.33082996,107.206 7.50187996,107.221 7.67292996,107.221 C8.50586996,107.221 9.30162996,106.954 9.96351996,106.451 C41.8458,82.3655 41.8458,82.3655 41.8458,82.3655 L41.8458,113 L45.6386,113 L45.6386,83.3126 L47.4607,85.6879 C47.8177,86.1763 48.3903,86.4205 48.9555,86.4205 C49.3571,86.4205 49.7736,86.3095 50.1157,86.0431 C72.6571,68.9943 72.6571,68.9943 72.6571,68.9943 C73.0587,68.6909 73.319,68.2617 73.3934,67.7512 C73.4529,67.2628 73.319,66.7522 73.0141,66.3526 C69.3774,61.5799 69.3774,61.5799 69.3774,61.5799 L69.8162,61.2395 C70.6492,60.5957 70.8202,59.4266 70.1955,58.5978 C64.0154,50.51 64.0154,50.51 64.0154,50.51 C63.7105,50.1178 63.2568,49.8514 62.766,49.7774 C62.2751,49.7182 61.762,49.8514 61.3604,50.1548 C45.6312,62.0312 45.6312,62.0312 45.6312,62.0312 L45.6312,35.1705 C45.6312,17.2708 60.9662,3.76642 81.2915,3.76642 C92.4544,3.76642 101.022,6.89647 106.771,13.0456 C113.94,20.719 114.825,31.1895 114.884,35.2815 C88.1186,35.2815 88.1186,35.2815 88.1186,35.2815 C87.0774,35.2815 86.2222,36.1325 86.2222,37.1684 C86.2222,83.1498 86.2222,83.1498 86.2222,83.1498 L86.0511,83.3348 C86.1106,83.394 86.1627,83.431 86.2222,83.4828 C86.2222,112.978 86.2222,112.978 86.2222,112.978 L90.015,112.978 L90.015,86.5537 C94.1128,89.3655 98.813,91.1932 103.855,91.8888 C104.294,91.948 104.71,91.985 105.09,91.985 C106.681,91.985 108.005,91.4966 109.069,90.5495 C111.627,88.2482 111.478,84.0008 111.381,81.1963 C111.344,80.5895 111.322,80.0864 111.344,79.746 C111.441,78.673 111.724,78.5176 113.218,77.9331 C113.903,77.6519 114.453,77.1191 114.758,76.4087 C115.197,75.3728 115.063,74.0853 114.795,73.0123 C114.854,72.9531 114.892,72.9013 114.944,72.8421 C116.178,71.3918 116.52,68.9351 115.814,66.471 C116.268,66.2786 116.989,66.0714 117.502,65.9234 C119.532,65.3167 122.068,64.5619 122.812,62.342 C123.295,60.8843 122.857,59.2786 121.459,57.4287 Z M7.65805996,103.454 L3.77595996,98.3783 L9.10082996,94.3603 L12.9681,99.4364 L7.65805996,103.454 Z M68.8717,67.1444 L49.3125,81.8919 L46.8062,78.6064 L66.3655,63.8589 L68.8717,67.1444 Z M62.1413,54.2986 L66.0234,59.3748 L15.98,97.1574 L12.1128,92.0812 L62.1413,54.2986 Z"
+                                        id="Shape"
+                                    ></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div className="p-4 space-y-4 leading-6 text-center lg:p-16">
+                        <h3 className="text-xl lg:text-3xl">trwała ondulacja</h3>
+                        <p className="text-2xl font-extrabold text-gold">od 450</p>
+                        <p className="max-w-xs mx-auto">* Zabieg poalegający na nadaniu włosom trwałego skrętu w formie loków lub fal</p>
+                        <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
+                        <h3 className="text-xl lg:text-3xl">prostowanie Keratynowe</h3>
+                        <p className="text-2xl font-extrabold text-gold">500-1000</p>
+                        <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
+                        <h3 className="text-xl lg:text-3xl">Kera Botox</h3>
+                        <p className="text-2xl font-extrabold text-gold">300-500</p>
+                        <p className="max-w-xs mx-auto">* Zabieg intensywnie wygładzający strukturę włosów</p>
+                        <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
+                        <h3 className="text-xl lg:text-3xl">zabieg mikrodermabrazji NIOXIN</h3>
+                        <p className="text-2xl font-extrabold text-gold">300-500</p>
+                        <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
+                        <p className="max-w-xs mx-auto">* Cena zawiera ekspercką konsultację i badanie skóry głowy przy przy użyciu mikrokamery</p>
+                    </div>
+                    <div
+                        className="absolute inset-0 z-0 border-4 top-24 -bottom-10 border-blueGreen"
+                    ></div>
+                </div>
+            </div>
+
             <div className="container justify-center mx-auto space-y-20 lg:space-y-0 lg:space-x-24 lg:flex text-primary">
                 <div className="relative flex flex-col justify-start w-3/4 mx-auto lg:mx-0 lg:w-1/3">
                     <div className="z-10 px-6 mx-auto -mb-1 bg-white lg:px-12">
@@ -95,7 +192,7 @@ const Offer = () => {
                     </div>
                     <div className="p-4 space-y-4 leading-6 text-center lg:p-16">
                         <h3 className="text-xl lg:text-3xl">modelowanie</h3>
-                        <p className="text-2xl font-extrabold text-gold">60-100</p>
+                        <p className="text-2xl font-extrabold text-gold">60-120</p>
                         <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
                         <p className="">* Cena strzyżenia zawiera
                             <br />
@@ -140,22 +237,22 @@ const Offer = () => {
                     </div>
                     <div className="p-4 space-y-4 leading-6 text-center lg:p-16">
                         <h3 className="text-xl lg:text-3xl">koloryzacja sombre</h3>
-                        <p className="text-2xl font-extrabold text-gold">od 350</p>
+                        <p className="text-2xl font-extrabold text-gold">od 450</p>
                         <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
                         <h3 className="text-xl lg:text-3xl">koloryzacja jednolita</h3>
                         <p className="text-2xl font-extrabold text-gold">od 250</p>
                         <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
                         <h3 className="text-xl lg:text-3xl">baleyage</h3>
-                        <p className="text-2xl font-extrabold text-gold">od 350</p>
+                        <p className="text-2xl font-extrabold text-gold">od 450</p>
                         <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
                         <h3 className="text-xl lg:text-3xl">koloryzacja 3D</h3>
                         <p className="text-2xl font-extrabold text-gold">od 300</p>
                         <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
                         <h3 className="text-xl lg:text-3xl">koloryzacja metodą Airtouch</h3>
-                        <p className="text-2xl font-extrabold text-gold">od 400</p>
+                        <p className="text-2xl font-extrabold text-gold">od 650</p>
                         <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
                         <h3 className="text-xl lg:text-3xl">dekoloryzacja włosów + kolor</h3>
-                        <p className="text-2xl font-extrabold text-gold">od 450</p>
+                        <p className="text-2xl font-extrabold text-gold">od 600</p>
                         <p className="">* Cena zależy od ilości
                             <br />
                             zużytego materiału</p>
@@ -192,24 +289,21 @@ const Offer = () => {
                         </svg>
                     </div>
                     <div className="p-4 space-y-4 leading-6 text-center lg:p-16">
-                        <h3 className="text-xl lg:text-3xl">regeneracja włosów Joico + sauna</h3>
-                        <p className="text-2xl font-extrabold text-gold">150-200</p>
-                        <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
-                        <h3 className="text-xl lg:text-3xl">regeneracja Wella Oil
-                            Reflections + sauna</h3>
-                        <p className="text-2xl font-extrabold text-gold">100-150</p>
+                        <h3 className="text-xl lg:text-3xl">trwała ondulacja</h3>
+                        <p className="text-2xl font-extrabold text-gold">od 450</p>
+                        <p className="max-w-xs mx-auto">* Zabieg poalegający na nadaniu włosom trwałego skrętu w formie loków lub fal</p>
                         <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
                         <h3 className="text-xl lg:text-3xl">prostowanie Keratynowe</h3>
-                        <p className="text-2xl font-extrabold text-gold">500-800</p>
+                        <p className="text-2xl font-extrabold text-gold">500-1000</p>
+                        <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
+                        <h3 className="text-xl lg:text-3xl">Kera Botox</h3>
+                        <p className="text-2xl font-extrabold text-gold">300-500</p>
+                        <p className="max-w-xs mx-auto">* Zabieg intensywnie wygładzający strukturę włosów</p>
                         <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
                         <h3 className="text-xl lg:text-3xl">zabieg mikrodermabrazji NIOXIN</h3>
-                        <p className="text-2xl font-extrabold text-gold">200</p>
+                        <p className="text-2xl font-extrabold text-gold">300-500</p>
                         <p className="w-1/2 mx-auto border-b-4 border-blueGreen"></p>
-                        <p className="">* Cena zawiera ekspercką konsultację
-                            <br />
-                            i badanie skóry głowy przy
-                            <br />
-                            przy użyciu mikrokamery</p>
+                        <p className="max-w-xs mx-auto">* Cena zawiera ekspercką konsultację i badanie skóry głowy przy przy użyciu mikrokamery</p>
                     </div>
                     <div
                         className="absolute inset-0 z-0 border-4 top-24 -bottom-10 border-blueGreen"

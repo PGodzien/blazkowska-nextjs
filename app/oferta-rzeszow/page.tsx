@@ -1,5 +1,5 @@
 import Image from "next/image";
-import slider from "../../public/oferta_rzeszow.jpg"
+import slider from "@/public/slider_salon.jpg"
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
