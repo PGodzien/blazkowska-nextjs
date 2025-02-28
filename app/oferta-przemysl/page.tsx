@@ -24,6 +24,7 @@ const Offer = () => {
 
 
             <div className="container justify-center mx-auto space-y-20 lg:space-y-0 lg:space-x-24 lg:flex text-primary">
+                {/* strzyżenie damskie */}
                 <div className="relative flex flex-col justify-start w-3/4 mx-auto lg:mx-0 lg:w-1/3">
                     <div className="z-10 px-6 mx-auto -mb-1 bg-white lg:px-12">
                         <svg
@@ -63,6 +64,7 @@ const Offer = () => {
                         className="absolute inset-0 z-0 border-4 top-24 -bottom-10 border-blueGreen"
                     ></div>
                 </div>
+                {/* modelowanie */}
                 <div
                     className="relative flex flex-col justify-center w-3/4 mx-auto mt-12 lg:mx-0 lg:w-1/3 lg:mt-0"
                 >
@@ -180,6 +182,7 @@ const Offer = () => {
             <div
                 className="container justify-center mx-auto my-20 space-y-20 lg:space-y-0 lg:space-x-24 lg:flex text-primary"
             >
+                {/* koloryzacja */}
                 <div
                     className="relative flex flex-col justify-start w-3/4 mx-auto lg:mx-0 lg:w-1/3"
                 >
@@ -233,6 +236,7 @@ const Offer = () => {
                         className="absolute inset-0 z-0 border-4 top-24 -bottom-10 border-blueGreen"
                     ></div>
                 </div>
+                {/* trwała ondulacja */}
                 <div
                     className="relative flex flex-col justify-center w-3/4 mx-auto mt-12 lg:mx-0 lg:w-1/3 lg:mt-0"
                 >
